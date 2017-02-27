@@ -1,0 +1,9 @@
+set grid
+set xlabel ("Wavelength (nm)")
+set ylabel ("Irradiance (W/m^2/nm)")
+
+set style line 1 lc rgb '#0000ff' lt 1 lw 1 pt 0.1 ps 1 
+
+set arrow from 390,graph(0,0) to 390,graph(1,1) nohead lw 0.3 lc rgb '#ff00ff'
+set arrow from 700,graph(0,0) to 700,graph(1,1) nohead lw 0.3 lc rgb '#ff0000'
+
